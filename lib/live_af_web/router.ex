@@ -18,6 +18,7 @@ defmodule LiveAfWeb.Router do
     pipe_through(:browser)
 
     get("/", PageController, :index)
+    live("/example", ExampleLive)
   end
 
   # Other scopes may use custom stacks.

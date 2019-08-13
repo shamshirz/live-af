@@ -77,7 +77,5 @@ config :phoenix, :plug_init_mode, :runtime
 
 config :live_af, LiveAfWeb.Endpoint,
   live_reload: [
-    patterns: [
-      ~r{lib/my_app_web/live/.*(ex)$}
-    ]
+    patterns: [~r{lib/my_app_web/live/.*(ex)$}]
   ]

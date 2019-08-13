@@ -33,6 +33,7 @@ defmodule LiveAf.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:calendar, "~> 0.17.5"},
       {:phoenix, "~> 1.4.9"},
       {:phoenix_live_view, github: "phoenixframework/phoenix_live_view"},
       {:phoenix_pubsub, "~> 1.1"},
