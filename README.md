@@ -30,3 +30,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 * Now it's all in the commits
 * `mix phx.server`
 * `open http://localhost:4000/example`
+* `cd assets && npm audit`
