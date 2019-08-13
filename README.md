@@ -18,3 +18,13 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+
+## Me stuff
+
+* [LiveView Docs](https://github.com/phoenixframework/phoenix_live_view)
+* `mix archive.install hex phx_new 1.4.9`
+* `mix phx.new live_af` #then deps etc
+* Add liveView dep
+* `mix phx.gen.secret 32`
+* Now it's all in the commits

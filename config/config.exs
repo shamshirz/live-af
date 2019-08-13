@@ -15,7 +15,10 @@ config :live_af, LiveAfWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "QdYwwOgFCnM3fkHOs5l7ohAy+lBZMsSPf83I954YAl2qZsjotmZaR57GqQEEh57o",
   render_errors: [view: LiveAfWeb.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: LiveAf.PubSub, adapter: Phoenix.PubSub.PG2]
+  pubsub: [name: LiveAf.PubSub, adapter: Phoenix.PubSub.PG2],
+  live_view: [
+    signing_salt: "3NTg0WaUTDJxpO6lfrxZK++SAMYeJrPF"
+  ]
 
 # Configures Elixir's Logger
 config :logger, :console,
