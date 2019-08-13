@@ -28,3 +28,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 * Add liveView dep
 * `mix phx.gen.secret 32`
 * Now it's all in the commits
+* `mix phx.server`
+* `open http://localhost:4000/example`
